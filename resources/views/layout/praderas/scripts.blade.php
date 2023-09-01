@@ -1,0 +1,10 @@
+<script src="{{asset('theme/js/jquery.min.js')}}"></script>
+<script src="{{asset('theme/js/wow.min.js')}}"></script>
+<script src="{{asset('theme/js/jquery.backTop.min.js')}}"></script>
+<script src="{{asset('theme/js/waypoints.min.js')}}"></script>
+<script src="{{asset('theme/js/waypoints-sticky.min.js')}}"></script>
+<script src="{{asset('theme/js/owl.carousel.min.js')}}"></script>
+<script src="{{asset('theme/js/jquery.stellar.min.js')}}"></script>
+<script src="{{asset('theme/js/jquery.counterup.min.js')}}"></script>
+<script src="{{asset('theme/js/venobox.min.js')}}"></script>
+<script src="{{asset('theme/js/custom-scripts.js')}}"></script>
