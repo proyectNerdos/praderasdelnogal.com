@@ -26,21 +26,17 @@
 
                          <span class="top-phone-no">
                              <i class="fa fa-phone-square"></i>
-                             +093-120-525-9162
+                             +54 381-5758222
                          </span>
 
                          <span class="top-email-info">
                              <i class="fa fa-paper-plane"></i>
-                             <a href="#">info@example.com</a>
+                             <a href="#">contacto@praderasdelnogal.com</a>
                          </span>
 
                      </div> <!-- end col-sm-6  -->
 
-                     <div class="col-md-6 col-sm-12 text-right hidden-xs top-donation-btn-container">
 
-                         <a href="donation.html" title="Donate Now" class="btn top-donate-btn" >DONATE NOW</a>
-
-                     </div> <!-- end col-sm-6  -->
 
                  </div> <!-- end .row  -->
 
@@ -64,59 +60,29 @@
                          <ul class="nav navbar-nav navbar-right">
                              <li class="drop">
                                  <a href="index.html" title="Home Layout 01">Home</a>
-                                 <ul class="drop-down">
-                                     <li><a href="index.html" title="Home Layout 01">Home Layout 1</a></li>
-                                     <li><a href="home-2.html" title="Home Layout 02">Home Layout 2</a></li>
-                                 </ul>
                              </li>
-                             <li class="drop"><a href="#">Pages</a>
-                                 <ul class="drop-down">
-                                     <li><a href="about-us.html" title="About Us">About Us</a></li>
-                                     <li><a href="service.html" title="Services">Services</a></li>
-                                     <li class="drop"><a href="#">Gallery</a>
-                                          <ul class="drop-down level3">
-                                             <li><a href="gallery-1.html">Layout 01</a></li>
-                                             <li><a href="gallery-2.html">Layout 02</a></li>
-                                             <li><a href="gallery-3.html">Layout 03</a></li>
-                                         </ul>
-                                     </li>
-                                     <li><a href="donation.html" title="Donation">Donation</a></li>
-                                     <li><a href="404.html" title="404 Page">404 Page</a></li>
-                                     <li class="drop"><a href="#">Level 3</a>
-                                         <ul class="drop-down level3">
-                                             <li><a href="#">Level 3.1</a></li>
-                                             <li><a href="#">Level 3.2</a></li>
-                                             <li><a href="#">Level 3.3</a></li>
-                                         </ul>
-                                     </li>
-                                 </ul>
+                             <li class="drop"><a href="#servicios">Servicios</a>
+
                              </li>
 
                              <li>
-                                 <a href="#">Causes</a>
-                                 <ul class="drop-down">
-                                     <li><a href="causes.html">All Causes</a></li>
-                                     <li><a href="cause-single.html">Single Cause</a></li>
-                                 </ul>
+                                 <a href="#ubicacion">Ubicación</a>
                              </li>
 
                              <li>
-                                 <a href="#">Events</a>
-                                 <ul class="drop-down">
-                                     <li><a href="events.html">All Events</a></li>
-                                     <li><a href="event-single.html">Single Event</a></li>
-                                 </ul>
+                                 <a href="#amenities">Amenities</a>
                              </li>
 
                              <li>
-                                 <a href="#">Blog</a>
-                                 <ul class="drop-down">
-                                     <li><a href="blog.html">All Posts</a></li>
-                                     <li><a href="single.html">Single Page</a></li>
-                                 </ul>
+                                <a href="#galery">Galería</a>
+                            </li>
+
+                             <li>
+                                 <a href="#">Login</a>
+
                              </li>
 
-                             <li><a href="contact.html">Contact</a></li>
+                             <li><a href="#">Contacto</a></li>
                          </ul>
                      </div>
                  </div>
@@ -138,10 +104,9 @@
                  <img src="{{ asset('theme/images/home_1_slider_1.jpg') }}" alt="img">
                  <div class="slider-content">
                      <div class="container">
-                         <h2>GROW TREES FOR YOUR FUTURE</h2>
-                         <h3>Save The Environment and You Will Save Life And Your Future</h3>
-                         <a href="#" class="btn btn-slider">JOIN CAMPAIGN</a>
-                         <a href="#" class="btn btn-slider-2">DONATE NOW</a>
+                         <h2>COUNTRY <br> PRADERAS DEL NOGAL</h2>
+                         <h3>Descubre la armonía de vivir donde la naturaleza y el <br> verde son parte esencial de tu día a día.</h3>
+                         <a href="#" class="btn btn-slider">Ingreso a Vecinos</a>
                      </div><!-- /.slider-content -->
                  </div>
              </div>
@@ -151,10 +116,9 @@
                  <img src="{{ asset('theme/images/home_1_slider_2.jpg') }}" alt="img">
                  <div class="slider-content">
                      <div class="container">
-                         <h2>GREEN ENVIRONMENT FOR LIFE</h2>
-                         <h3>Ensure Green and Healthy Environment For Better Living World</h3>
-                         <a href="#" class="btn btn-slider">JOIN WITH US</a>
-                         <a href="#" class="btn btn-slider-2">DONATE NOW</a>
+                        <h2>COUNTRY <br> PRADERAS DEL NOGAL</h2>
+                        <h3>Descubre la armonía de vivir donde la naturaleza y el <br> verde son parte esencial de tu día a día.</h3>
+                         <a href="#" class="btn btn-slider">Ingreso a Vecinos</a>
                      </div><!-- /.slider-content -->
                  </div>
              </div>
@@ -166,14 +130,49 @@
 
      <!--  HOW WE WORK SECTION 1 -->
 
-     <section class="section-content-block section-how-we-work section-secondary-bg">
+
+
+
+     {{-- <section class="section-content-block section-how-we-work section-secondary-bg">
+
+        <div class="container">
+
+            <div class="row">
+
+                <div class="col-md-8 col-md-offset-2 col-sm-12 text-center">
+                    <h2 class="section-heading">Ubicación</h2>
+                    <p class="section-subheading">
+                        Emplazado sobre la Ruta Nacional N°9 – km 1309, Los Nogales – Tafí Viejo, con una vista increíble al cerro, es la nueva urbanización que revalorizará una de las zonas de mayor crecimiento de Tucumán. <br> <br> Rodeado de naturaleza y a quince minutos del centro de San Miguel de Tucumán, es el country que mejorará al máximo tu calidad de vida.
+                     </p>
+                     <br>
+
+                     <div class="mapouter"><div class="gmap_canvas"><iframe width="100%" height="100%" id="gmap_canvas" src="https://maps.google.com/maps?q=Barrio Privado Praderas del Nogal&t=&z=17&ie=UTF8&iwloc=&output=embed" frameborder="0" scrolling="no" marginheight="0" marginwidth="0"></iframe><a href="https://2yu.co"></a><br><style>.mapouter{position:relative;text-align:right;height:100%;width:100%;}</style><a href="https://embedgooglemap.2yu.co/"></a><style>.gmap_canvas {overflow:hidden;background:none!important;height:100%;width:100%;}</style></div></div>
+
+                     <p class="section-subheading"> <br>
+                        Nuestros amenities invitan a una calidad de vida tranquila y segura, con todas las comodidades que un barrio privado debe tener.
+                    </p>
+                </div> <!-- end .col-sm-10  -->
+
+            </div> <!--  end .row  -->
+        </div> <!--  end .container  -->
+
+
+
+
+
+
+
+</section> --}}
+    <!--  end .container Map  -->
+
+     <section class="section-content-block section-how-we-work section-secondary-bg" id="servicios">
 
          <div class="container">
 
              <div class="row">
 
                  <div class="col-md-8 col-md-offset-2 col-sm-12 text-center">
-                     <h2 class="section-heading"><span>Our</span> Goals</h2>
+                     <h2 class="section-heading"><span>Nuestros</span> Servicios</h2>
                      <p class="section-subheading">
                          Increase in the awareness among people about various issues
                      </p>
@@ -188,12 +187,13 @@
                      <div class="service-block-bg">
 
                          <article class="service-block">
-                             <h2>Awareness on Pollution</h2>
-                             <p>Environmental activism has led to an Increase in the awareness among people about various issues human activities have had on the environment.
-                                 <br /><br /><a href="#" class="service_read_more">Read More</a>
+                             <h2>Portería de Acceso</h2>
+                             <p>Nuestro barrio, cuenta con una portería de acceso con personal las 24 horas del día, brindando seguridad y tranquilidad a todos nuestros vecinos.
+                                 <br /><br />
+
                              </p>
 
-                             <i class="fa fa fa-flask"></i>
+                             <i class="fa fa  fa-shield"></i>
 
                          </article>
 
@@ -205,11 +205,11 @@
                      <div class="service-block-bg">
 
                          <article class="service-block">
-                             <h2>Reduction Acid Rain</h2>
-                             <p>Environmental activism has led to an Increase in the awareness among people about various issues human activities have had on the environment.
-                                   <br /><br /><a href="#" class="service_read_more">Read More</a>
+                             <h2>Seguridad</h2>
+                             <p>Contamos con personal capacitado recorriendo el barrio, asegurando y proporcionando seguridad a todas las viviendas en la comunidad.
+                                   <br /><br />
                              </p>
-                             <i class="fa fa fa-line-chart"></i>
+                             <i class="fa fa  fa-motorcycle"></i>
                          </article>
 
                      </div>
@@ -218,7 +218,7 @@
 
              </div>
 
-             <div class="row wow fadeInUp">
+
 
                  <div class="col-lg-6 col-md-6 col-sm-12 col-xs-12">
 
@@ -226,55 +226,56 @@
 
                          <article class="service-block">
 
-                             <h2>Secure Ozone Layer</h2>
-                             <p>Environmental activism has led to an Increase in the awareness among people about various issues human activities have had on the environment.
-                                   <br /><br /><a href="#" class="service_read_more">Read More</a>
+                             <h2>Adoquines e iluminación</h2>
+                             <p>En nuestro barrio, las calles están adoquinadas y cuentan con iluminación subterránea para preservar el hermoso paisaje de Los Nogales.
+                                   <br /><br />
                              </p>
-
-                             <i class="fa fa fa-leaf"></i>
-
+                             <i class="fa fa-car"></i>
                          </article>
 
                      </div>
 
                  </div> <!--  end col-sm-6  -->
 
-                 <div class="col-lg-6 col-md-6 col-sm-12 col-xs-12">
 
-                     <div class="service-block-bg">
 
-                         <article class="service-block">
+                <div class="col-lg-6 col-md-6 col-sm-12 col-xs-12">
 
-                             <h2>Stop Global Warming</h2>
-                             <p>Environmental activism has led to an Increase in the awareness among people about various issues human activities have had on the environment.
-                                   <br /><br /><a href="#" class="service_read_more">Read More</a>
-                             </p>
-                             <i class="fa fa-area-chart"></i>
-                         </article>
+                    <div class="service-block-bg">
 
-                     </div>
+                        <article class="service-block">
 
-                 </div> <!--  end col-sm-6  -->
+                            <h2>Agua Potable</h2>
+                            <p>Praderas del Nogal cuenta con su propio pozo de agua potable, garantizando un servicio continuo y sin cortes para todos los vecinos.
+                                  <br /><br />
+                            </p>
+                            <i class="fa fa-tint"></i>
+                        </article>
+
+                    </div>
+
+                </div> <!--  end col-sm-6  -->
 
              </div> <!-- end row  -->
 
 
          </div> <!--  end .container  -->
 
-     </section> <!--  end .section-how-we-work -->
+     </section>
+     <!--  end .section-how-we-work -->
 
      <!--  CAUSE SECTION  -->
 
-     <section class="section-content-block cause-section-1">
+     <section class="section-content-block cause-section-1" id="ubicacion">
 
          <div class="container wow fadeInUp">
 
              <div class="row section-heading-wrapper">
 
                  <div class="col-md-8 col-md-offset-2 col-sm-12 text-center">
-                     <h2 class="section-heading section-heading-alt"><span>Our</span> Causes</h2>
+                     <h2 class="section-heading section-heading-alt"><span>Ubicación </span></h2>
                       <p class="section-subheading section-subheading-alt">
-                         Increase in the awareness among people about various issues
+                         Podes ingresar al mapa y llegar a nuestro Country
                      </p>
                  </div> <!-- end .col-sm-10  -->
 
@@ -282,7 +283,12 @@
 
              <div class="row">
 
-                 <div class="cause-items">
+                <div style="text-align: center;">
+                    <iframe src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d3564.504604413656!2d-65.22843482350483!3d-26.696321984199148!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x942266ed8285bb99%3A0x3234fef7630866ab!2sBarrio%20Privado%20Praderas%20del%20Nogal!5e0!3m2!1ses-419!2sar!4v1693673852396!5m2!1ses-419!2sar" width="800" height="300" style="border:0; display: inline-block;" allowfullscreen="" loading="lazy" referrerpolicy="no-referrer-when-downgrade"></iframe>
+                  </div>
+
+
+                {{-- <div class="cause-items">
 
                      <div class="col-sm-12">
 
@@ -296,7 +302,8 @@
                                      <img src="{{asset ('theme/images/social_cause_1.jpg')}} " alt="Cause" />
                                      <a class="btn btn-default cause-button" href="#">Donate Now</a>
                                  </figure> <!-- end .cause-img  -->
-                             </div> <!-- end .col-sm-4  -->
+                             </div>
+                             <!-- end .col-sm-4  -->
 
                              <div class="col-md-7 col-sm-12 no-padding">
 
@@ -320,7 +327,8 @@
 
                                  </div> <!-- end .cause-content  -->
 
-                             </div> <!-- end .col-sm-8  -->
+                             </div>
+                             <!-- end .col-sm-8  -->
 
                              </div> <!-- end .cause-wrapper  -->
 
@@ -369,12 +377,14 @@
 
                          </div> <!-- end .row  -->
 
-                     </div> <!-- end .col-md-4  -->
+                     </div>
+                     <!-- end .col-md-4  -->
 
-                 </div>
+                 </div> --}}
 
 
-             </div> <!-- end .row  -->
+             </div>
+             <!-- end .row  -->
 
 
          </div> <!-- end .container  -->
@@ -384,7 +394,7 @@
 
      <!-- TEAM SECTION 2 -->
 
-     <section class="section-content-block section-our-team  section-pure-white-bg">
+     {{-- <section class="section-content-block section-our-team  section-pure-white-bg">
 
          <div class="container wow fadeInUp">
 
@@ -505,11 +515,12 @@
 
          </div> <!-- end .container  -->
 
-     </section> <!--  end .section-our-team -->
+     </section>  --}}
+     <!--  end .section-our-team -->
 
      <!--  CTA SECTION  -->
 
-     <section class="cta-section-2">
+     {{-- <section class="cta-section-2">
          <div class="container wow fadeInUp animated">
              <div class="row">
                  <div class="col-sm-12 text-center">
@@ -521,22 +532,21 @@
                  </div>
              </div>
          </div>
-     </section>
+     </section> --}}
 
 
      <!--  EVENT SECTION  -->
 
-     <section class="section-content-block event-section-1 section-secondary-bg">
+     <section class="section-content-block event-section-1 section-secondary-bg" id="amenities">
 
          <div class="container wow fadeInUp">
 
              <div class="row section-heading-wrapper">
 
                  <div class="col-md-8 col-md-offset-2 col-sm-12 text-center">
-                     <h2 class="section-heading"><span>Upcoming</span> Events</h2>
+                     <h2 class="section-heading"><span>Tus mejores</span> momentos</h2>
                       <p class="section-subheading">
-                          Increase in the awareness among people about various issues
-                     </p>
+                        Invita a tu familia y amigos a compartir tus momentos más especiales en nuestras instalaciones. En un ambiente acogedor y lleno de comodidades, crea recuerdos inolvidables que atesorarás para siempre.                     </p>
                  </div> <!-- end .col-sm-10  -->
 
              </div> <!-- end .row  -->
@@ -550,10 +560,7 @@
                          <figure class="event-img">
 
                              <img src="{{asset ('theme/images/event_2.jpg')}} " alt="event" />
-                             <p class="event-info">
-                                 <span class="event-date"><i class="fa fa-calendar"></i> August 20, 2016</span>
-                                 <span class="event-location"><i class="fa fa-map-marker"></i> Jordana Lows</span>
-                             </p>
+
 
                          </figure> <!-- end .cause-img  -->
 
@@ -561,8 +568,7 @@
 
                              <div class="event-text">
 
-                                 <h5><a href="#">International Day of Forests</a></h5>
-                                 <p class="event-time">01:00pm - 03:00pm</p>
+                                 <h5><a href="#">Club House</a></h5>
 
                              </div> <!--  end .cause-text  -->
 
@@ -581,10 +587,7 @@
                          <figure class="event-img">
 
                              <img src="{{asset ('theme/images/event_1.jpg')}} " alt="event" />
-                             <p class="event-info">
-                                 <span class="event-date"><i class="fa fa-calendar"></i> August 17, 2016</span>
-                                 <span class="event-location"><i class="fa fa-map-marker"></i> Almond Street</span>
-                             </p>
+
 
                          </figure> <!-- end .cause-img  -->
 
@@ -592,8 +595,8 @@
 
                              <div class="event-text">
 
-                                 <h5><a href="#"> World Meteorological Day</a></h5>
-                                 <p class="event-time">01:00pm - 03:00pm</p>
+                                 <h5><a href="#"> Cancha de Fútbol</a></h5>
+
 
                              </div> <!--  end .cause-text  -->
 
@@ -610,10 +613,7 @@
                          <figure class="event-img">
 
                              <img src="{{asset ('theme/images/event_3.jpg')}} " alt="event" />
-                             <p class="event-info">
-                                 <span class="event-date"><i class="fa fa-calendar"></i> August 25, 2016</span>
-                                 <span class="event-location"><i class="fa fa-map-marker"></i>Logan Vally</span>
-                             </p>
+
 
                          </figure> <!-- end .cause-img  -->
 
@@ -621,8 +621,8 @@
 
                              <div class="event-text">
 
-                                 <h5><a href="#">World Environment Day </a></h5>
-                                 <p class="event-time">01:00pm - 03:00pm</p>
+                                 <h5><a href="#">Plaza con Juegos</a></h5>
+
 
                              </div> <!--  end .cause-text  -->
 
@@ -636,10 +636,7 @@
 
              </div> <!-- end .row  -->
 
-             <div class="row">
-                 <div class="col-sm-12 col-md-4 col-md-offset-4 text-center">
-                     <a href="#" class="btn btn-load-more">- Load All Events -</a>
-                 </div>
+
              </div> <!-- end .row  -->
 
          </div> <!-- end .container  -->
@@ -659,8 +656,8 @@
 
                      <div class="counter-block-1 text-center">
 
-                         <h4>Campaigns</h4>
-                         <span class="counter">400</span>
+                         <h4>Lotes</h4>
+                         <span class="counter">266</span>
 
                      </div>
 
@@ -671,8 +668,31 @@
                      <div class="counter-block-1 text-center">
 
 
-                         <h4>Volunteers</h4>
-                         <span class="counter">262</span>
+                         <h4>m2 del barrio</h4>
+                         <span class="counter">50429</span>
+
+
+                     </div>
+
+                 </div> <!--  end col-sm-3  -->
+
+                 <div class="col-md-2 col-sm-12">
+
+                    <div class="counter-block-1 text-center">
+
+                        <h4>cuadras</h4>
+                         <span class="counter">21</span>
+
+                    </div>
+                </div> <!--  end col-sm-3  -->
+
+                 <div class="col-md-2 col-sm-12">
+
+                     <div class="counter-block-1 text-center">
+
+
+                         <h4>Viviendas</h4>
+                         <span class="counter">131</span>
 
 
                      </div>
@@ -683,21 +703,8 @@
 
                      <div class="counter-block-1 text-center">
 
-
-                         <h4>Projects</h4>
-                         <span class="counter">653</span>
-
-
-                     </div>
-
-                 </div> <!--  end col-sm-3  -->
-
-                 <div class="col-md-2 col-sm-12">
-
-                     <div class="counter-block-1 text-center">
-
-                         <h4>Awards</h4>
-                         <span class="counter">364</span>
+                         <h4>En obra</h4>
+                         <span class="counter">71</span>
 
                      </div>
 
@@ -708,23 +715,16 @@
                      <div class="counter-block-1 text-center">
 
 
-                         <h4>Mission</h4>
-                         <span class="counter">964</span>
+                         <h4>min. al centro</h4>
+                         <span class="counter">15</span>
 
                      </div>
 
                  </div> <!--  end col-sm-3  -->
 
-                 <div class="col-md-2 col-sm-12">
 
-                     <div class="counter-block-1 text-center">
 
-                         <h4>Donators</h4>
-                          <span class="counter">101</span>
 
-                     </div>
-
-                 </div> <!--  end col-sm-3  -->
 
              </div> <!-- end row  -->
 
@@ -735,16 +735,16 @@
 
      <!--  GALLERY CONTENT  -->
 
-     <section class="section-content-block no-bottom-padding">
+     <section class="section-content-block no-bottom-padding" id="galery">
 
          <div class="container">
 
              <div class="row section-heading-wrapper">
 
                  <div class="col-md-8 col-md-offset-2 col-sm-12 text-center">
-                     <h2 class="section-heading"><span>Photo</span> Gallery</h2>
+                     <h2 class="section-heading"><span>Galería de </span> Fotos</h2>
                      <p class="section-subheading">
-                          Increase in the awareness among people about various issues
+                          Algúnas imagenes de nuestro querído barrio
                      </p>
                  </div> <!-- end .col-sm-10  -->
 
@@ -854,7 +854,7 @@
 
      <!-- CLIENT LOGO SECTION  -->
 
-     <section class="section-content-block section-client-logo">
+     {{-- <section class="section-content-block section-client-logo">
 
          <div class="container wow fadeInUp">
 
@@ -910,7 +910,9 @@
 
          </div> <!-- end .container  -->
 
-     </section> <!--  end .section-client-logo -->
+     </section>  --}}
+
+     <!--  end .section-client-logo -->
 
 
      @yield('content')

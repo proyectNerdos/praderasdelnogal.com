@@ -14,26 +14,18 @@
                                 <img alt="Logo" src=" {{ asset('theme/images/logo.png') }}">
                             </figure> <!-- end .cause-img  -->
                             <div class="contact-info">
-                            <p>Pellentesque habitant morbi tristique senectus et netus et malesuada fames ac turpis egestas amet<br/> vestibulum tortor quam feugiat vitae  eget tempor sit  ante.</p>
+                            <p>Rodeado de naturaleza y a quince minutos del centro de <br/> San Miguel de Tucumán, es el country que mejorará al máximo tu calidad de vida.</p>
                             </div>
                             <div class="contact-info">
                                 <div class="contact-details">
                                     <div class="social-icons margin-top-20">
-                                        <a href="#">
-                                        <i class="fa fa-facebook"></i>
-                                        </a>
-                                        <a href="#">
-                                        <i class="fa fa-twitter"></i>
-                                        </a>
-                                        <a href="#">
-                                        <i class="fa fa-pinterest-p"></i>
-                                        </a>
-                                        <a href="#">
+
+
+
+                                        <a href="https://www.instagram.com/praderasdelnogal/" target="black">
                                         <i class="fa fa-instagram"></i>
                                         </a>
-                                        <a href="#" class="margin-right-0">
-                                        <i class="fa fa-linkedin"></i>
-                                        </a>
+
                                     </div>
                                 </div>
                             </div>
@@ -51,8 +43,8 @@
                 <div class="row">
                     <div class="col-md-6 col-sm-12">
                          <span>
-                        Copyright © 2016. All right reserved by
-                        <a class="color-primary" href="http://bluewindlab.net/">bluewindlab.com</a>
+                        Copyright © 2023. All right reserved by
+                        <a class="color-primary" href="http://praderasdelnogal.com.ar/">praderasdelnogal.com.ar <br>  <a href="http://sebastianmaturana.com" target="black"> Desing by Sebastian Maturana</a></a>
                         </span>
                     </div> <!-- end .col-md-6  -->
                     <div class="col-md-6 col-sm-12">
@@ -63,19 +55,19 @@
                                        <a href="index.html">Home</a>
                                     </li>
                                     <li>
-                                      <a href="#">Causes</a>
+                                      <a href="#">Servicios</a>
                                     </li>
                                     <li>
-                                      <a href="donate.html">Events</a>
+                                      <a href="donate.html">Galería</a>
                                     </li>
                                     <li>
-                                      <a href="blog-with-sidebar.html">Gallery</a>
+                                      <a href="blog-with-sidebar.html">Eventos</a>
                                     </li>
                                     <li>
-                                      <a href="campaign-grid.html">Blog</a>
+                                      <a href="campaign-grid.html">Login</a>
                                     </li>
                                     <li>
-                                      <a href="contact.html">Contact</a>
+                                      <a href="contact.html">Contacto</a>
                                     </li>
                                 </ul>
                             </nav>
