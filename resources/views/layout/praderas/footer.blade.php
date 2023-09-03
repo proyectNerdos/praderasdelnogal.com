@@ -71,7 +71,7 @@
                                     </li>
                                     <li>
                                         <a href="#">Contacto</a>
-                                      </li>
+                                    </li>
                                 </ul>
                             </nav>
                         </div>

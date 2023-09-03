@@ -5,11 +5,17 @@
 
 <head>
     <meta charset="utf-8">
-    <title>Greenlife - Nature & Environmental Non-Profit HTML5 Template</title>
+    <title>Country Praderas del Nogal</title>
     <meta name="viewport" content="width=device-width, initial-scale=1, maximum-scale=1">
-    <meta name="description" content="Greenlife - Nature & Environmental Non-Profit HTML5 Template">
-    <meta name="author" content="xenioushk">
-    <link rel="shortcut icon" href="images/favicon.png" />
+    <meta name="description" content="Country Praderas del Nogal - Tafí Viejo - Los Nogales - Tucumán">
+    <meta name="keywords" content="country, praderas del nogal, country praderas del nogal, barrio privado, barrio privado praderas del nogal, los nogales, country en los nogales, barrio privado los nogales, countrys en tucumán">
+    <meta name="copyright" content="Country Praderas del Nogal" />
+    <meta name="author" content="Sebastian Maturana">
+    <meta name="robots" content="index,follow" />
+    <meta http-equiv="cache-control" content="no-cache"/>
+
+
+    <link rel="shortcut icon" href="{{ asset ('theme/images/logo.png') }}" />
 
     <!-- HTML5 shim, for IE6-8 support of HTML5 elements -->
     <!--[if lt IE 9]>

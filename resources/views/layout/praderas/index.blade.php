@@ -59,29 +59,22 @@
                      <div class="navbar-collapse collapse">
                          <ul class="nav navbar-nav navbar-right">
                              <li class="drop">
-                                 <a href="index.html" title="Home Layout 01">Home</a>
+                                 <a href="index.html">Home</a>
                              </li>
                              <li class="drop"><a href="#servicios">Servicios</a>
-
                              </li>
-
                              <li>
                                  <a href="#ubicacion">Ubicación</a>
                              </li>
-
                              <li>
                                  <a href="#amenities">Amenities</a>
                              </li>
-
                              <li>
                                 <a href="#gallery">Galería</a>
                             </li>
-
                              <li>
                                  <a href="#">Login</a>
-
                              </li>
-
                              <li><a href="#">Contacto</a></li>
                          </ul>
                      </div>

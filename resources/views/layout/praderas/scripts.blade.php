@@ -8,3 +8,5 @@
 <script src="{{asset('theme/js/jquery.counterup.min.js')}}"></script>
 <script src="{{asset('theme/js/venobox.min.js')}}"></script>
 <script src="{{asset('theme/js/custom-scripts.js')}}"></script>
+<script src="{{asset('theme/js/bootstrap.min.js')}}"></script>
+<script src="{{asset('theme/js/jquery.gmap.min.js')}}"></script>
