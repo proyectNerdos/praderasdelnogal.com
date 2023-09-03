@@ -10,7 +10,7 @@
         <meta name="keywords" content="dashboard, admin, dashboard template, admin template, laravel, php laravel, laravel bootstrap, laravel admin template, bootstrap laravel, bootstrap in laravel, laravel dashboard template, laravel admin, laravel dashboard, laravel blade template, php admin">
 
         <!-- FAVICON -->
-		<link rel="shortcut icon" type="image/x-icon" href="assets\images\brand\favicon.ico">
+		<link rel="shortcut icon" type="image/x-icon" href="assets\img\brand\favicon.ico">
 
 		<!-- TITLE -->
 		<title>Volgh –  Bootstrap 4 Responsive Application Admin panel Theme Ui Kit & Premium Dashboard Design Modern Flat HTML Template</title>
@@ -31,7 +31,7 @@
 
 		@include('alerts.errors')
         @include('alerts.request')
-        @include('alerts.success')   
+        @include('alerts.success')
         @include('flash::message')
 
 
@@ -40,7 +40,7 @@
 
 			<!-- GLOABAL LOADER -->
 			<div id="global-loader">
-				<img src="assets\images\loader.svg" class="loader-img" alt="Loader">
+				<img src="assets\img\loader.svg" class="loader-img" alt="Loader">
 			</div>
 			<!-- /GLOABAL LOADER -->
 
@@ -50,7 +50,7 @@
 				    <!-- CONTAINER OPEN -->
 					<div class="col col-login mx-auto">
 						<div class="text-center">
-							<img src="assets\images\brand\logo.png" class="header-brand-img" alt="logo">
+							<img src="assets\img\brand\logo.png" class="header-brand-img" alt="logo">
 						</div>
 					</div>
 					<div class="container-login100">

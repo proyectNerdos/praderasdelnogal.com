@@ -10,8 +10,6 @@
 
 <body>
 
-    {{-- @include('layout.praderas.menu') --}}
-
     <!--  HEADER -->
 
      <header class="main-header clearfix">
@@ -54,7 +52,7 @@
                              <span class="icon-bar"></span>
                              <span class="icon-bar"></span>
                          </button>
-                         <a class="logo" href="index.html"><img alt="" src=" {{asset ('theme/images/logo.png')}} "></a>
+                         <a class="logo" href="index.html"><img alt="" src=" {{asset ('img/logo.png')}} "></a>
                      </div>
                      <div class="navbar-collapse collapse">
                          <ul class="nav navbar-nav navbar-right">
@@ -75,7 +73,7 @@
                              <li>
                                  <a href="#">Login</a>
                              </li>
-                             <li><a href="#">Contacto</a></li>
+                             <li><a href="mailto:contacto@praderasdelnogal.com.ar">Contacto</a></li>
                          </ul>
                      </div>
                  </div>
@@ -94,11 +92,11 @@
 
              <div class="item">
 
-                 <img src="{{ asset('theme/images/home_1_slider_1.jpg') }}" alt="img">
+                 <img src="{{ asset('img/home_1_slider_1.png') }}" alt="img">
                  <div class="slider-content">
                      <div class="container">
                          <h2>COUNTRY <br> PRADERAS DEL NOGAL</h2>
-                         <h3>Descubre la armonía de vivir donde la naturaleza y el <br> verde son parte esencial de tu día a día.</h3>
+                         <h3>Vive en plena armonía con la naturaleza a<br>solo 15 minutos de la ciudad.</h3>
                          <a href="#" class="btn btn-slider">Ingreso a Vecinos</a>
                      </div><!-- /.slider-content -->
                  </div>
@@ -106,15 +104,39 @@
 
              <div class="item">
 
-                 <img src="{{ asset('theme/images/home_1_slider_2.jpg') }}" alt="img">
+                 <img src="{{ asset('img/home_1_slider_2.png') }}" alt="img">
                  <div class="slider-content">
                      <div class="container">
                         <h2>COUNTRY <br> PRADERAS DEL NOGAL</h2>
-                        <h3>Descubre la armonía de vivir donde la naturaleza y el <br> verde son parte esencial de tu día a día.</h3>
+                        <h3>Cambia de aire y respira la frescura de la<br>naturaleza en tu hogar</h3>
                          <a href="#" class="btn btn-slider">Ingreso a Vecinos</a>
                      </div><!-- /.slider-content -->
                  </div>
              </div>
+
+             <div class="item">
+
+                <img src="{{ asset('img/home_1_slider_3.png') }}" alt="img">
+                <div class="slider-content">
+                    <div class="container">
+                        <h2>COUNTRY <br> PRADERAS DEL NOGAL</h2>
+                        <h3>Descubre la tranquilidad de la vida <br>en medio de la naturaleza  </h3>
+                        <a href="#" class="btn btn-slider">Ingreso a Vecinos</a>
+                    </div><!-- /.slider-content -->
+                </div>
+            </div>
+
+            <div class="item">
+
+                <img src="{{ asset('img/home_1_slider_4.png') }}" alt="img">
+                <div class="slider-content">
+                    <div class="container">
+                        <h2>COUNTRY <br> PRADERAS DEL NOGAL</h2>
+                        <h3>Disfruta cada día en compañía de familia y amigos,<br>rodeados de la belleza de la naturaleza</h3>
+                        <a href="#" class="btn btn-slider">Ingreso a Vecinos</a>
+                    </div><!-- /.slider-content -->
+                </div>
+            </div>
 
 
          </div>
@@ -292,7 +314,7 @@
                              <div class="col-md-5 col-sm-12 hidden-xs no-padding">
                                  <figure class="cause-img">
 
-                                     <img src="{{asset ('theme/images/social_cause_1.jpg')}} " alt="Cause" />
+                                     <img src="{{asset ('img/social_cause_1.jpg')}} " alt="Cause" />
                                      <a class="btn btn-default cause-button" href="#">Donate Now</a>
                                  </figure> <!-- end .cause-img  -->
                              </div>
@@ -337,7 +359,7 @@
 
                              <div class="col-md-5 col-sm-12 hidden-xs no-padding">
                                  <figure class="cause-img">
-                                     <img src="{{asset ('theme/images/social_cause_2.jpg')}} " alt="Cause" />
+                                     <img src="{{asset ('img/social_cause_2.jpg')}} " alt="Cause" />
                                      <a class="btn btn-default cause-button" href="#">Donate Now</a>
                                  </figure> <!-- end .cause-img  -->
                              </div> <!-- end .col-sm-4  -->
@@ -410,7 +432,7 @@
 
                          <figure class="team-member">
                              <a href="#" title="Melissa Munoz">
-                                 <img src="{{asset ('theme/images/team_6.jpg')}} " alt="" />
+                                 <img src="{{asset ('img/team_6.jpg')}} " alt="" />
                              </a>
                          </figure> <!-- end. team-member  -->
                          <h3>ALEXANDER GARY</h3>
@@ -435,7 +457,7 @@
 
                          <figure class="team-member">
                              <a href="#" title="Melissa Munoz">
-                                 <img src="{{asset ('theme/images/team_7.jpg')}} " alt="" />
+                                 <img src="{{asset ('img/team_7.jpg')}} " alt="" />
                              </a>
                          </figure> <!-- end. team-member  -->
                          <h3>MELISSA MUNOZ</h3>
@@ -460,7 +482,7 @@
 
                          <figure class="team-member">
                              <a href="#" title="Melissa Munoz">
-                                 <img src="{{asset ('theme/images/team_8.jpg')}} " alt="" />
+                                 <img src="{{asset ('img/team_8.jpg')}} " alt="" />
                              </a>
                          </figure> <!-- end. team-member  -->
                          <h3>JOHN ABRAHAM</h3>
@@ -485,7 +507,7 @@
 
                          <figure class="team-member">
                              <a href="#" title="Melissa Munoz">
-                                 <img src="{{asset ('theme/images/team_9.jpg')}} " alt="" />
+                                 <img src="{{asset ('img/team_9.jpg')}} " alt="" />
                              </a>
                          </figure> <!-- end. team-member  -->
                          <h3>SILVIA STAN</h3>
@@ -552,7 +574,7 @@
 
                          <figure class="event-img">
 
-                             <img src="{{asset ('theme/images/event_2.jpg')}} " alt="event" />
+                             <img src="{{asset ('img/event_2.jpg')}} " alt="event" />
 
 
                          </figure> <!-- end .cause-img  -->
@@ -579,7 +601,7 @@
 
                          <figure class="event-img">
 
-                             <img src="{{asset ('theme/images/event_1.jpg')}} " alt="event" />
+                             <img src="{{asset ('img/event_1.jpg')}} " alt="event" />
 
 
                          </figure> <!-- end .cause-img  -->
@@ -605,7 +627,7 @@
 
                          <figure class="event-img">
 
-                             <img src="{{asset ('theme/images/event_3.jpg')}} " alt="event" />
+                             <img src="{{asset ('img/event_3.jpg')}} " alt="event" />
 
 
                          </figure> <!-- end .cause-img  -->
@@ -752,11 +774,11 @@
 
                  <div class="col-md-3 col-sm-12 gallery-container">
 
-                     <a class="gallery-light-box" data-gall="myGallery" href="{{asset ('theme/images/gallery_1.png')}}">
+                     <a class="gallery-light-box" data-gall="myGallery" href="{{asset ('img/gallery_1.png')}}">
 
                          <figure class="gallery-img">
 
-                             <img src="{{asset ('theme/images/gallery_1.png')}} " alt="gallery image" />
+                             <img src="{{asset ('img/gallery_1.png')}} " alt="gallery image" />
 
                          </figure> <!-- end .cause-img  -->
 
@@ -766,11 +788,11 @@
 
                  <div class="col-md-3 col-sm-12 gallery-container">
 
-                     <a class="gallery-light-box"  data-gall="myGallery" href=" {{asset ('theme/images/gallery_5.png')}}">
+                     <a class="gallery-light-box"  data-gall="myGallery" href=" {{asset ('img/gallery_5.png')}}">
 
                          <figure class="gallery-img">
 
-                             <img src="{{asset ('theme/images/gallery_5.png')}} " alt="gallery image" />
+                             <img src="{{asset ('img/gallery_5.png')}} " alt="gallery image" />
 
                          </figure> <!-- end .cause-img  -->
 
@@ -780,11 +802,11 @@
 
                  <div class="col-md-6 col-sm-12 gallery-container">
 
-                     <a class="gallery-light-box"  data-gall="myGallery" href="{{asset ('theme/images/gallery_3.png')}} ">
+                     <a class="gallery-light-box"  data-gall="myGallery" href="{{asset ('img/gallery_3.png')}} ">
 
                          <figure class="gallery-img">
 
-                             <img src="{{asset ('theme/images/gallery_3.png')}} " alt="gallery image" />
+                             <img src="{{asset ('img/gallery_3.png')}} " alt="gallery image" />
 
                          </figure> <!-- end .cause-img  -->
 
@@ -798,11 +820,11 @@
 
                  <div class="col-md-6 col-sm-12 gallery-container">
 
-                     <a class="gallery-light-box"  data-gall="myGallery" href=" {{asset ('theme/images/gallery_4.png')}}">
+                     <a class="gallery-light-box"  data-gall="myGallery" href=" {{asset ('img/gallery_4.png')}}">
 
                          <figure class="gallery-img">
 
-                             <img src="{{asset ('theme/images/gallery_4.png')}} " alt="gallery image" />
+                             <img src="{{asset ('img/gallery_4.png')}} " alt="gallery image" />
 
                          </figure> <!-- end .cause-img  -->
 
@@ -812,11 +834,11 @@
 
                  <div class="col-md-3 col-sm-12 gallery-container">
 
-                     <a class="gallery-light-box" data-gall="myGallery" href="{{asset('theme/images/gallery_2.png')}}">
+                     <a class="gallery-light-box" data-gall="myGallery" href="{{asset('img/gallery_2.png')}}">
 
                          <figure class="gallery-img">
 
-                             <img src="{{asset ('theme/images/gallery_2.png')}} " alt="gallery image" />
+                             <img src="{{asset ('img/gallery_2.png')}} " alt="gallery image" />
 
                          </figure> <!-- end .cause-img  -->
 
@@ -826,11 +848,11 @@
 
                  <div class="col-md-3 col-sm-12 gallery-container">
 
-                     <a class="gallery-light-box"  data-gall="myGallery" href=" {{asset ('theme/images/gallery_6.png')}} ">
+                     <a class="gallery-light-box"  data-gall="myGallery" href=" {{asset ('img/gallery_6.png')}} ">
 
                          <figure class="gallery-img">
 
-                             <img src="{{asset ('theme/images/gallery_6.png')}} " alt="gallery image" />
+                             <img src="{{asset ('img/gallery_6.png')}} " alt="gallery image" />
 
                          </figure> <!-- end .cause-img  -->
 
@@ -868,31 +890,31 @@
 
                      <div class="logo">
 
-                         <img src="{{asset ('theme/images/logo_1.png')}} " alt="" />
+                         <img src="{{asset ('img/logo_1.png')}} " alt="" />
 
                      </div>
 
                      <div class="logo">
 
-                         <img src="{{asset ('theme/images/logo_2.png')}} " alt="" />
+                         <img src="{{asset ('img/logo_2.png')}} " alt="" />
 
                      </div>
 
                      <div class="logo">
 
-                         <img src="{{asset ('theme/images/logo_3.png')}} " alt="" />
+                         <img src="{{asset ('img/logo_3.png')}} " alt="" />
 
                      </div>
 
                      <div class="logo">
 
-                         <img src="{{asset ('theme/images/logo_4.png')}} " alt="" />
+                         <img src="{{asset ('img/logo_4.png')}} " alt="" />
 
                      </div>
 
                      <div class="logo">
 
-                         <img src="{{asset ('theme/images/logo_5.png')}} " alt="" />
+                         <img src="{{asset ('img/logo_5.png')}} " alt="" />
 
                      </div>
 
@@ -909,10 +931,7 @@
 
 
      @yield('content')
-
-
      @include('layout.praderas.footer')
-
      @section('scripts')
          @include('layout.praderas.scripts')
      @show

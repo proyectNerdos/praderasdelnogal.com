@@ -11,17 +11,14 @@
                             <figure class="footer-logo-img text-center">
 
 
-                                <img alt="Logo" src=" {{ asset('theme/images/logo.png') }}">
+                                <img alt="Logo" src=" {{ asset('img/logo.png') }}">
                             </figure> <!-- end .cause-img  -->
                             <div class="contact-info">
-                            <p>Rodeado de naturaleza y a quince minutos del centro de <br/> San Miguel de Tucumán, es el country que mejorará al máximo tu calidad de vida.</p>
+                            <p>Rodeado de naturaleza y a quince minutos del centro de <br/> San Miguel de Tucumán, es el country que mejorará al máximo tu calidad de vida</p>
                             </div>
                             <div class="contact-info">
                                 <div class="contact-details">
                                     <div class="social-icons margin-top-20">
-
-
-
                                         <a href="https://www.instagram.com/praderasdelnogal/" target="black">
                                         <i class="fa fa-instagram"></i>
                                         </a>
@@ -79,5 +76,4 @@
                 </div> <!-- end .row  -->
             </div> <!-- end .container  -->
         </section>  <!--  end .footer-area -->
-
-    </footer> <!--  end of footer -->
+</footer> <!--  end of footer -->

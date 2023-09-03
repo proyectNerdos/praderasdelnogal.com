@@ -8,7 +8,7 @@
 
 
         {!!Html::style('theme-admin/volgh/assets/plugins/single-page/css/main.css')!!}
-  
+
 
     </head>
 
@@ -16,15 +16,15 @@
 
         @include('alerts.errors')
         @include('alerts.request')
-        @include('alerts.success')   
+        @include('alerts.success')
         @include('flash::message')
 
         		<!-- BACKGROUND-IMAGE -->
-		<div class="login-img" style="background-image: url('{{ asset('theme-admin/volgh/assets/images/login/background.jpg') }}'); background-size: cover; background-position: center; width: 100vw; height: 100vh;">
+		<div class="login-img" style="background-image: url('{{ asset('theme-admin/volgh/assets/img/login/background.jpg') }}'); background-size: cover; background-position: center; width: 100vw; height: 100vh;">
 
 			<!-- GLOABAL LOADER -->
 			<div id="global-loader">
-				<img src="{{asset('theme-admin/volgh/assets/images/loading.svg')}}" class="loader-img" alt="Loader">
+				<img src="{{asset('theme-admin/volgh/assets/img/loading.svg')}}" class="loader-img" alt="Loader">
 			</div>
 			<!-- /GLOABAL LOADER -->
 
@@ -34,7 +34,7 @@
 				    <!-- CONTAINER OPEN -->
 					<div class="col col-login mx-auto">
 						<div class="text-center">
-							<img src="assets\images\brand\logo.png" class="header-brand-img" alt="">
+							<img src="assets\img\brand\logo.png" class="header-brand-img" alt="">
 						</div>
 					</div>
 					<div class="container-login100">
@@ -62,7 +62,7 @@
 									<p class="mb-0"><a href="forgot-password.html" class="text-primary ml-1">Forgot Password?</a></p>
 								</div>
 								<div class="container-login100-form-btn">
-									
+
                                     <button type="submit" class="login100-form-btn btn-primary">Login</button>
 								</div>
 								<div class="text-center pt-3">

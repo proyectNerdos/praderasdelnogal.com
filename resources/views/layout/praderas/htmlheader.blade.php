@@ -15,7 +15,7 @@
     <meta http-equiv="cache-control" content="no-cache"/>
 
 
-    <link rel="shortcut icon" href="{{ asset ('theme/images/logo.png') }}" />
+    <link rel="shortcut icon" href="{{ asset ('img/logo.png') }}" />
 
     <!-- HTML5 shim, for IE6-8 support of HTML5 elements -->
     <!--[if lt IE 9]>
@@ -23,13 +23,14 @@
     <![endif]-->
 
     <!-- The styles -->
-    <link rel='stylesheet' href='{{asset('theme/css/bootstrap.min.css')}}' type='text/css' />
-    <link rel='stylesheet' href='{{asset('theme/css/font-awesome.min.css')}}' type='text/css' />
-    <link rel='stylesheet' href='{{asset('theme/css/animate.css')}}' type='text/css' />
-    <link rel='stylesheet' href='{{asset('theme/css/owl.carousel.css')}}' type='text/css' />
-    <link rel='stylesheet' href='{{asset('theme/css/venobox.css')}}' type='text/css' />
-    <link rel='stylesheet' href='{{asset('theme/css/styles.css')}}' type='text/css' />
-
+    <link rel='stylesheet' href='{{asset('css/bootstrap.min.css')}}' type='text/css' />
+    <link rel='stylesheet' href='{{asset('css/font-awesome.min.css')}}' type='text/css' />
+    <link rel='stylesheet' href='{{asset('css/animate.css')}}' type='text/css' />
+    <link rel='stylesheet' href='{{asset('css/owl.carousel.css')}}' type='text/css' />
+    <link rel='stylesheet' href='{{asset('css/venobox.css')}}' type='text/css' />
+    <link rel='stylesheet' href='{{asset('css/styles.css')}}' type='text/css' />
+    <link rel='stylesheet' href='{{asset('css/icon-styles.css')}}' type='text/css' />
+    <link rel='stylesheet' href='{{asset('css/bootstrap-social.css')}}' type='text/css' />
 </head>
 
 
