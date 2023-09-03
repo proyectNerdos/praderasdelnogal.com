@@ -74,7 +74,7 @@
                              </li>
 
                              <li>
-                                <a href="#galery">Galería</a>
+                                <a href="#gallery">Galería</a>
                             </li>
 
                              <li>
@@ -735,7 +735,7 @@
 
      <!--  GALLERY CONTENT  -->
 
-     <section class="section-content-block no-bottom-padding" id="galery">
+     <section class="section-content-block no-bottom-padding" id="gallery">
 
          <div class="container">
 
@@ -759,11 +759,11 @@
 
                  <div class="col-md-3 col-sm-12 gallery-container">
 
-                     <a class="gallery-light-box" data-gall="myGallery" href="{{asset ('theme/images/gallery_1.jpg')}}">
+                     <a class="gallery-light-box" data-gall="myGallery" href="{{asset ('theme/images/gallery_1.png')}}">
 
                          <figure class="gallery-img">
 
-                             <img src="{{asset ('theme/images/gallery_1.jpg')}} " alt="gallery image" />
+                             <img src="{{asset ('theme/images/gallery_1.png')}} " alt="gallery image" />
 
                          </figure> <!-- end .cause-img  -->
 
@@ -773,11 +773,11 @@
 
                  <div class="col-md-3 col-sm-12 gallery-container">
 
-                     <a class="gallery-light-box"  data-gall="myGallery" href=" {{asset ('theme/images/gallery_2.jpg')}}">
+                     <a class="gallery-light-box"  data-gall="myGallery" href=" {{asset ('theme/images/gallery_5.png')}}">
 
                          <figure class="gallery-img">
 
-                             <img src="{{asset ('theme/images/gallery_5.jpg')}} " alt="gallery image" />
+                             <img src="{{asset ('theme/images/gallery_5.png')}} " alt="gallery image" />
 
                          </figure> <!-- end .cause-img  -->
 
@@ -787,11 +787,11 @@
 
                  <div class="col-md-6 col-sm-12 gallery-container">
 
-                     <a class="gallery-light-box"  data-gall="myGallery" href="{{asset ('theme/images/gallery_3.jpg')}} ">
+                     <a class="gallery-light-box"  data-gall="myGallery" href="{{asset ('theme/images/gallery_3.png')}} ">
 
                          <figure class="gallery-img">
 
-                             <img src="{{asset ('theme/images/gallery_3.jpg')}} " alt="gallery image" />
+                             <img src="{{asset ('theme/images/gallery_3.png')}} " alt="gallery image" />
 
                          </figure> <!-- end .cause-img  -->
 
@@ -805,11 +805,11 @@
 
                  <div class="col-md-6 col-sm-12 gallery-container">
 
-                     <a class="gallery-light-box"  data-gall="myGallery" href=" {{asset ('theme/images/gallery_3.jpg')}}">
+                     <a class="gallery-light-box"  data-gall="myGallery" href=" {{asset ('theme/images/gallery_4.png')}}">
 
                          <figure class="gallery-img">
 
-                             <img src="{{asset ('theme/images/gallery_4.jpg')}} " alt="gallery image" />
+                             <img src="{{asset ('theme/images/gallery_4.png')}} " alt="gallery image" />
 
                          </figure> <!-- end .cause-img  -->
 
@@ -819,11 +819,11 @@
 
                  <div class="col-md-3 col-sm-12 gallery-container">
 
-                     <a class="gallery-light-box" data-gall="myGallery" href="{{asset('theme/images/gallery_1.jpg')}}">
+                     <a class="gallery-light-box" data-gall="myGallery" href="{{asset('theme/images/gallery_2.png')}}">
 
                          <figure class="gallery-img">
 
-                             <img src="{{asset ('theme/images/gallery_2.jpg')}} " alt="gallery image" />
+                             <img src="{{asset ('theme/images/gallery_2.png')}} " alt="gallery image" />
 
                          </figure> <!-- end .cause-img  -->
 
@@ -833,11 +833,11 @@
 
                  <div class="col-md-3 col-sm-12 gallery-container">
 
-                     <a class="gallery-light-box"  data-gall="myGallery" href=" {{asset ('theme/images/gallery_2.jpg')}} ">
+                     <a class="gallery-light-box"  data-gall="myGallery" href=" {{asset ('theme/images/gallery_6.png')}} ">
 
                          <figure class="gallery-img">
 
-                             <img src="{{asset ('theme/images/gallery_6.jpg')}} " alt="gallery image" />
+                             <img src="{{asset ('theme/images/gallery_6.png')}} " alt="gallery image" />
 
                          </figure> <!-- end .cause-img  -->
 

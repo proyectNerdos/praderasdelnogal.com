@@ -55,20 +55,23 @@
                                        <a href="index.html">Home</a>
                                     </li>
                                     <li>
-                                      <a href="#">Servicios</a>
+                                      <a href="#servicios">Servicios</a>
                                     </li>
                                     <li>
-                                      <a href="donate.html">Galería</a>
+                                      <a href="#ubicacion">Ubicación</a>
                                     </li>
                                     <li>
-                                      <a href="blog-with-sidebar.html">Eventos</a>
+                                      <a href="#amenities">Amenities</a>
                                     </li>
                                     <li>
-                                      <a href="campaign-grid.html">Login</a>
+                                      <a href="#gallery">Galería</a>
                                     </li>
                                     <li>
-                                      <a href="contact.html">Contacto</a>
+                                      <a href="#">Login</a>
                                     </li>
+                                    <li>
+                                        <a href="#">Contacto</a>
+                                      </li>
                                 </ul>
                             </nav>
                         </div>
