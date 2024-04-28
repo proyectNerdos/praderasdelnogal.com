@@ -41,7 +41,7 @@
                     <div class="col-md-6 col-sm-12">
                          <span>
                         Copyright © 2023. All right reserved by
-                        <a class="color-primary" href="http://praderasdelnogal.com.ar/">praderasdelnogal.com.ar <br>  <a href="http://sebastianmaturana.com" target="black"> Desing by Sebastian Maturana</a></a>
+                        <a class="color-primary" href="http://praderasdelnogal.com.ar/">praderasdelnogal.com <br>  <a href="http://sebastianmaturana.com" target="black"> Desing by Sebastian Maturana</a></a>
                         </span>
                     </div> <!-- end .col-md-6  -->
                     <div class="col-md-6 col-sm-12">
@@ -63,11 +63,11 @@
                                     <li>
                                       <a href="#gallery">Galería</a>
                                     </li>
-                                    <li>
+                                    {{-- <li>
                                       <a href="#">Login</a>
-                                    </li>
+                                    </li> --}}
                                     <li>
-                                        <a href="#">Contacto</a>
+                                        <a href="mailto:comision@praderasdelnogal.com">Contacto</a>
                                     </li>
                                 </ul>
                             </nav>

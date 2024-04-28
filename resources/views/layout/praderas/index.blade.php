@@ -22,14 +22,14 @@
 
                      <div class="col-md-6 col-sm-12">
 
-                         <span class="top-phone-no">
+                         {{-- <span class="top-phone-no">
                              <i class="fa fa-phone-square"></i>
                              +54 381-5758222
-                         </span>
+                         </span> --}}
 
                          <span class="top-email-info">
                              <i class="fa fa-paper-plane"></i>
-                             <a href="#">contacto@praderasdelnogal.com</a>
+                             <a href="#">comision@praderasdelnogal.com</a>
                          </span>
 
                      </div> <!-- end col-sm-6  -->
@@ -70,10 +70,10 @@
                              <li>
                                 <a href="#gallery">Galería</a>
                             </li>
-                             <li>
+                             {{-- <li>
                                  <a href="#">Login</a>
-                             </li>
-                             <li><a href="mailto:contacto@praderasdelnogal.com.ar">Contacto</a></li>
+                             </li> --}}
+                             <li><a href="mailto:comision@praderasdelnogal.com">Contacto</a></li>
                          </ul>
                      </div>
                  </div>
@@ -85,26 +85,32 @@
      </header> <!-- end main-header  -->
 
      <!--  HOME SLIDER BLOCK  -->
+<section>
+    <div class="item">
 
+        <img src="{{ asset('img/home_1_slider_1.png') }}" alt="img">
+
+    </div>
+</section>
      <!-- slider start -->
-     <div class="slider-wrap">
-         <div id="slider_1" class="owl-carousel owl-theme">
+     {{-- <div class="slider-wrap">
+         <div id="slider_1" >
+
+            <div class="item">
+
+                <img src="{{ asset('img/home_1_slider_1.png') }}" alt="img">
+                <div class="slider-content">
+                    <div class="container">
+                        <h2>COUNTRY <br> PRADERAS DEL NOGAL</h2>
+                        <h3>Vive en plena armonía con la naturaleza a<br>solo 15 minutos de la ciudad.</h3>
+                        <a href="#" class="btn btn-slider">Ingreso a Vecinos</a>
+                    </div><!-- /.slider-content -->
+                </div>
+            </div>
 
              <div class="item">
 
                  <img src="{{ asset('img/home_1_slider_1.png') }}" alt="img">
-                 <div class="slider-content">
-                     <div class="container">
-                         <h2>COUNTRY <br> PRADERAS DEL NOGAL</h2>
-                         <h3>Vive en plena armonía con la naturaleza a<br>solo 15 minutos de la ciudad.</h3>
-                         <a href="#" class="btn btn-slider">Ingreso a Vecinos</a>
-                     </div><!-- /.slider-content -->
-                 </div>
-             </div>
-
-             <div class="item">
-
-                 <img src="{{ asset('img/home_1_slider_2.png') }}" alt="img">
                  <div class="slider-content">
                      <div class="container">
                         <h2>COUNTRY <br> PRADERAS DEL NOGAL</h2>
@@ -116,7 +122,7 @@
 
              <div class="item">
 
-                <img src="{{ asset('img/home_1_slider_3.png') }}" alt="img">
+                <img src="{{ asset('img/home_1_slider_1.png') }}" alt="img">
                 <div class="slider-content">
                     <div class="container">
                         <h2>COUNTRY <br> PRADERAS DEL NOGAL</h2>
@@ -128,7 +134,7 @@
 
             <div class="item">
 
-                <img src="{{ asset('img/home_1_slider_4.png') }}" alt="img">
+                <img src="{{ asset('img/home_1_slider_1.png') }}" alt="img">
                 <div class="slider-content">
                     <div class="container">
                         <h2>COUNTRY <br> PRADERAS DEL NOGAL</h2>
@@ -140,7 +146,7 @@
 
 
          </div>
-     </div>
+     </div> --}}
      <!-- slider end -->
 
      <!--  HOW WE WORK SECTION 1 -->

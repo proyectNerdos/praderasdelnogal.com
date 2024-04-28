@@ -916,6 +916,7 @@ a.logo img {
   display: block;
 }
 .navbar-default {
+    /* position: fixed; */
   border: none;
   background: transparent;
   margin-bottom: 0px;
