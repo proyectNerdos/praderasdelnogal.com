@@ -87,9 +87,7 @@
      <!--  HOME SLIDER BLOCK  -->
 <section>
     <div class="item">
-
         <img src="{{ asset('img/home_1_slider_1.png') }}" alt="img">
-
     </div>
 </section>
      <!-- slider start -->
