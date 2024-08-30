@@ -1,5 +1,4 @@
-<!-- Mirrored from medicare.bold-themes.com/dentist/ by HTTrack Website Copier/3.x [XR&CO'2014], Sun, 20 Aug 2023 18:59:44 GMT -->
-<!-- Added by HTTrack -->
+
 <meta http-equiv="content-type" content="text/html;charset=UTF-8" /><!-- /Added by HTTrack -->
 
 
@@ -17,10 +16,6 @@
 
     <link rel="shortcut icon" href="{{ asset ('img/logo.png') }}" />
 
-    <!-- HTML5 shim, for IE6-8 support of HTML5 elements -->
-    <!--[if lt IE 9]>
-      <script src="http://html5shim.googlecode.com/svn/trunk/html5.js"></script>
-    <![endif]-->
 
     <!-- The styles -->
     <link rel='stylesheet' href='{{asset('css/bootstrap.min.css')}}' type='text/css' />
